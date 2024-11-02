@@ -1,0 +1,205 @@
+.nav_bar {
+    overflow: visible;
+    border-bottom: 3px solid bisque;
+    text-align: center;
+    background-color: rgb(44, 40, 40);
+}
+
+.nav_bar a {
+    font-size: 24px;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    text-align: center;
+    color: bisque;
+}
+.project_title {
+font-style: italic;
+}
+.nav_bar a:hover {
+    background-color: bisque;
+    color: rgb(44, 40, 40);
+}
+
+.fa-solid {
+    color: rgb(44, 40, 40);
+}
+
+.fa-solid:hover, .fa-brands:hover {
+    color: rgb(44, 40, 40);
+    background-color: rgb(44, 40, 40);
+}
+
+body {
+    background-color: rgb(44, 40, 40);
+}
+
+#DMA_Portfolio {
+    text-align: center;
+    color: bisque;
+}
+
+#title_name {
+    font-size: 3.5rem;
+}
+
+.homepage_project_image_2 {
+    opacity: 0.5;
+    width: 500px;
+    height: 500px;
+}
+
+.homepage_project_image_2:hover {
+    opacity: 1;
+}
+.homepage_project_image_3 a {
+    opacity: 0.5;
+    width: 1000px;
+    height: 1000px;
+}
+.project_card2 img {
+    width: 100%;
+    max-width: 500px; /* Consistent thumbnail size */
+    height: auto;
+}
+.homepage_project_image_3:hover {
+    opacity: 1;
+}
+/* Centering and styling project cards */
+.project_card {
+    text-align: center;
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.project_card img {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px; /* Consistent thumbnail size */
+    height: auto;
+}
+
+.project_card_name {
+    text-align: center;
+    color: bisque;
+    font-size: large;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.project_card_about {
+    text-align: center;
+    color: bisque;
+    margin-top: 5px;
+}
+
+.project_page_description {
+    margin-top: 1%;
+}
+.centered-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+}
+
+.centered-container img {
+            max-width: 600px; 
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+}
+.centered-container_p4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.centered-container_p4 img {
+    max-width: 1200px; 
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.centered-container_p3 img {
+    max-width: 1000px; 
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+       
+.centered-text {
+            text-align: center;
+            max-width: 800px; 
+            margin: 20px auto 0; 
+}
+.image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px; 
+            justify-content: center; 
+            margin: 20px 0;
+}
+.image-container img {
+            width: 45%; /*change*/
+            height: auto;
+            max-width: 400px; 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.centered-text_p3 {
+            text-align: center;
+            margin-top: 20px;
+            max-width: 800px; 
+            margin-left: auto;
+            margin-right: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+    padding: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(235, 213, 186);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
